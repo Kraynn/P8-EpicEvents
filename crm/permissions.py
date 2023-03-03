@@ -58,7 +58,7 @@ class EventPermission(BasePermission):
             if sales_group is True:
                 return True
             else:
-                raise PermissionDenied(detail='Sales has to be support')
+                raise PermissionDenied(detail='User has to be support')
 
         elif view.action == 'destroy':
             return False

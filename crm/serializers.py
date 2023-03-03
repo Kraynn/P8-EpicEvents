@@ -1,10 +1,9 @@
 from rest_framework.serializers import ModelSerializer
 from rest_framework import serializers
-from rest_framework.response import Response
 from .models import User, Client, Contract, Event
 
 
-class SignupSerializer(serializers.ModelSerializer):
+class Registerializer(serializers.ModelSerializer):
     group = serializers.CharField(required=False)
 
     class Meta:
