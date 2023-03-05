@@ -84,6 +84,7 @@ Créer un administrateur et/ou des managers avec la commande:
 * http://127.0.0.1:8000/admin/
 * Créer les groupes "support" et "sales" en cliquant sur "Groups"
   
+___________________________________________________
 
 
 Postman :
@@ -93,11 +94,3 @@ L'ensemble des routes de requêtes est documenté sur Postman:
 > [Documentation](https://documenter.getpostman.com/view/23482099/2s93JnV71D)
 
 ***************************
-
-
-
-
-
-
-
-
