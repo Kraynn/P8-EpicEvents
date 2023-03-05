@@ -86,7 +86,7 @@ Créer un administrateur et/ou des managers avec la commande:
   
 
 
-Postmman :
+Postman :
 ----------------------
 
 L'ensemble des routes de requêtes est documenté sur Postman:
