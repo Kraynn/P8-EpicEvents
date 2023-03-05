@@ -66,7 +66,7 @@ ___________________________________________________
 Lancer le serveur :
 ----------------------
 
-A partir de l'environnement virtuel créé, s'assurer d'être dans le fichier "app" puis exécuter la commande suivante:
+A partir de l'environnement virtuel créé, s'assurer d'être dans le fichier "epicevents" puis exécuter la commande suivante:
 >
 >python manage.py runserver
 
