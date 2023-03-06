@@ -67,7 +67,7 @@ class EventViewset(ModelViewSet):
             data = {'client': client_id}
             serializer.save(**data)
         else:
-            raise ValidationError('User is not support')
+            raise ValidationError('Assigned contact user is not support')
 
     def perform_update(self, serializer):
         support = serializer.validated_data.get('support_contact')
@@ -78,4 +78,4 @@ class EventViewset(ModelViewSet):
             serializer.save(**data)
 
         else:
-            raise ValidationError('User is not support')
+            raise ValidationError('Assigned contact user is not support')
